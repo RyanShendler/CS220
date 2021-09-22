@@ -1,0 +1,90 @@
+   0:	0000	bubble
+   1:	0000	bubble
+   2:	0000	bubble
+   3:	0000	bubble
+   4:	0000	irmovq	$0x200, %rsp
+   5:	000a	bubble
+   6:	000a	bubble
+   7:	000a	bubble
+   8:	000a	call	$0x38
+   9:	0038	irmovq	$0x18, %rdi
+  10:	0042	irmovq	$0x4, %rsi
+  11:	004c	bubble
+  12:	004c	call	$0x56
+  13:	0056	irmovq	$0x8, %r8
+  14:	0060	irmovq	$0x1, %r9
+  15:	006a	xorq	%rax, %rax
+  16:	006c	andq	%rsi, %rsi
+  17:	006e	jmp	$0x87
+  18:	0087	bubble
+  19:	0087	bubble
+  20:	0087	jne	$0x77
+  21:	0077	mrmovq	$0x0(%rdi), %r10
+  22:	0081	bubble
+  23:	0081	bubble
+  24:	0081	bubble
+  25:	0081	addq	%r10, %rax
+  26:	0083	addq	%r8, %rdi
+  27:	0085	subq	%r9, %rsi
+  28:	0087	bubble
+  29:	0087	bubble
+  30:	0087	jne	$0x77
+  31:	0077	mrmovq	$0x0(%rdi), %r10
+  32:	0081	bubble
+  33:	0081	bubble
+  34:	0081	bubble
+  35:	0081	addq	%r10, %rax
+  36:	0083	addq	%r8, %rdi
+  37:	0085	subq	%r9, %rsi
+  38:	0087	bubble
+  39:	0087	bubble
+  40:	0087	jne	$0x77
+  41:	0077	mrmovq	$0x0(%rdi), %r10
+  42:	0081	bubble
+  43:	0081	bubble
+  44:	0081	bubble
+  45:	0081	addq	%r10, %rax
+  46:	0083	addq	%r8, %rdi
+  47:	0085	subq	%r9, %rsi
+  48:	0087	bubble
+  49:	0087	bubble
+  50:	0087	jne	$0x77
+  51:	0077	mrmovq	$0x0(%rdi), %r10
+  52:	0081	bubble
+  53:	0081	bubble
+  54:	0081	bubble
+  55:	0081	addq	%r10, %rax
+  56:	0083	addq	%r8, %rdi
+  57:	0085	subq	%r9, %rsi
+  58:	0087	bubble
+  59:	0087	bubble
+  60:	0087	jne	$0x77
+  61:	0090	bubble
+  62:	0090	bubble
+  63:	0090	bubble
+  64:	0090	ret	
+  65:	0055	bubble
+  66:	0055	bubble
+  67:	0055	bubble
+  68:	0055	ret	
+  69:	0013	halt	
+rax: 0000abcdabcdabcd
+rcx: 0000000000000000
+rdx: 0000000000000000
+rbx: 0000000000000000
+rsp: 0000000000000200
+rbp: 0000000000000000
+rsi: 0000000000000000
+rdi: 0000000000000038
+ r8: 0000000000000008
+ r9: 0000000000000001
+r10: 0000a000a000a000
+r11: 0000000000000000
+r12: 0000000000000000
+r13: 0000000000000000
+r14: 0000000000000000
+ pc: 0000000000000013
+status: HLT
+cc: Z=1 S=0 O=0
+W[000001f8]: 0000000000000013
+W[000001f0]: 0000000000000055

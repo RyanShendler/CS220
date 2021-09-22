@@ -1,0 +1,33 @@
+   0:	0000	bubble
+   1:	0000	bubble
+   2:	0000	bubble
+   3:	0000	bubble
+   4:	0000	irmovq	$0x8, %rbx
+   5:	000a	irmovq	$0x200, %rsi
+   6:	0014	irmovq	$0xa, %rdi
+   7:	001e	bubble
+   8:	001e	addq	%rax, %rbx
+   9:	0020	mrmovq	$0x4(%rsi), %rcx
+  10:	002a	subq	%rsi, %rdx
+  11:	002c	addq	%rax, %rdi
+  12:	002e	bubble
+  13:	002e	subq	%rax, %rcx
+  14:	0030	halt	
+rax: 0000000000000000
+rcx: 0000000000000000
+rdx: fffffffffffffe00
+rbx: 0000000000000008
+rsp: 0000000000000000
+rbp: 0000000000000000
+rsi: 0000000000000200
+rdi: 000000000000000a
+ r8: 0000000000000000
+ r9: 0000000000000000
+r10: 0000000000000000
+r11: 0000000000000000
+r12: 0000000000000000
+r13: 0000000000000000
+r14: 0000000000000000
+ pc: 0000000000000030
+status: HLT
+cc: Z=1 S=0 O=0
